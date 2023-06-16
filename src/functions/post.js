@@ -1,4 +1,6 @@
 import axios from 'axios';
+
+// function to create a post
 export const createPost = async (
   type,
   background,
