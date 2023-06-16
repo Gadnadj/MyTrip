@@ -94,6 +94,8 @@ export const comment = async (postId, comment, image, token) => {
     return error.response.data.message;
   }
 };
+
+// function to save a post
 export const savePost = async (postId, token) => {
   try {
     const { data } = await axios.put(
