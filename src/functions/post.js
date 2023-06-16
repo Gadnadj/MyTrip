@@ -132,6 +132,7 @@ export const deletePost = async (postId, token) => {
   }
 };
 
+// function to share a post
 export const sharePost = async (postId, userId, token) => {
   try {
     const { data } = await axios.post(
