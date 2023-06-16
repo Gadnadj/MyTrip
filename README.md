@@ -1,4 +1,4 @@
-# MyTrip-Frontend
+# MyTrip
 
 ## Getting Started with Create React App
 
