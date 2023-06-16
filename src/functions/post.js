@@ -114,7 +114,7 @@ export const savePost = async (postId, token) => {
   }
 };
 
-//
+// function to delete a post
 export const deletePost = async (postId, token) => {
   try {
     const { data } = await axios.delete(
