@@ -32,6 +32,8 @@ export const createPost = async (
     return error.response.data.message;
   }
 };
+
+// function to react to a post
 export const reactPost = async (postId, react, token) => {
   try {
     const { data } = await axios.put(
