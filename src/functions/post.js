@@ -153,6 +153,7 @@ export const sharePost = async (postId, userId, token) => {
   }
 };
 
+// function to edit a post
 export const editPost = async (
   postId,
   type,
