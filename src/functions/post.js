@@ -53,6 +53,8 @@ export const reactPost = async (postId, react, token) => {
     return error.response.data.message;
   }
 };
+
+// function to get react to a post
 export const getReacts = async (postId, token) => {
   try {
     const { data } = await axios.get(
