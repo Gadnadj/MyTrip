@@ -71,6 +71,8 @@ export const getReacts = async (postId, token) => {
     return error.response.data.message;
   }
 };
+
+// function to comment on a post
 export const comment = async (postId, comment, image, token) => {
   try {
     const { data } = await axios.put(
