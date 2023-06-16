@@ -185,6 +185,7 @@ export const editPost = async (
   }
 };
 
+// function to get unique location
 export const getUniqueLocations = async (token) => {
   try {
     const { data } = await axios.get(
